@@ -60,7 +60,7 @@ public class ProductController extends BaseController {
         
         String sql = this.query.show;
         ResultSet rs = this.getWithParameter(map, sql);
-        
+        //untuk menyatukan table html ke dalam database//
         if (rs.next()) {
             model.setId(rs.getString("id"));
             model.setName(rs.getString("name"));

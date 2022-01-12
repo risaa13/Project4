@@ -8,6 +8,7 @@ public class AdminModel {
     private String username;
     private String password;
 
+// menyamakan table di halaman html dengan tabel yang ada di database//
     public void setId(String id) {
         this.id = id;
     }
