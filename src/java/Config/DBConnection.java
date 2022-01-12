@@ -8,7 +8,7 @@ public class DBConnection {
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            
+    // nama database yang ada di php adalah inventorry//
             String url = "jdbc:mysql://localhost:3306/inventoryy";
             
             con = DriverManager.getConnection(url, "root", "");
